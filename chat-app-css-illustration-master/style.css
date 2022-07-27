@@ -55,3 +55,25 @@ p {
     font-weight: var(--weight-regular);
 }
 
+.t-message {
+    font-size: .8rem;
+    letter-spacing: 0;
+    line-height: 1.1rem;
+    font-weight: var(--weight-regular);
+}
+
+.t-moderate-violet {
+    color: var(--color-moderate-violet);
+}
+
+.t-desaturated-dark-violet {
+    color: var(--color-desaturated-dark-violet);
+}
+
+.t-choice {
+    font-size: .8rem;
+    line-height: 1.1rem;
+    color: var(--color-white);
+    font-weight: var(--weight-regular);
+}
+
