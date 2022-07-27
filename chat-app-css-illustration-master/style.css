@@ -1,0 +1,57 @@
+
+:root {
+    // colors
+    --color-white: #fff;
+    --color-bg-white: #FAFAFA;
+    --color-moderate-violet: hsl(276, 55%, 52%);
+    --color-desaturated-dark-violet: hsl(271, 15%, 43%);
+
+    // font weights
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-bold: 700;   
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--color-bg-white);
+}
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+// Type Specs
+.t-dog-walker-name {
+    letter-spacing: 0;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    color: var(--color-white);
+    font-weight: var(--weight-medium);
+}
+
+.t-status {
+    color: #d99eff;
+    font-size: .8rem;
+    letter-spacing: 0;
+    line-height: .9rem;
+    font-weight: var(--weight-regular);
+}
+
